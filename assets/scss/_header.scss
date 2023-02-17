@@ -1,0 +1,31 @@
+html {
+  font-size: 16px;
+}
+
+.header {
+
+}
+
+.header-logo {
+  padding: 100px 0;
+  text-align: center;
+  background-color: #232323;
+  background-image: url(../img/header-bg.jpg);
+  background-size: cover;
+   background-position: 50% 50%;
+}
+
+.header-logo__title {
+  display: block;
+  padding-left: 0.33em;
+  letter-spacing: 0.33em;
+  color: #df8a13;
+  font-family: "PT Serif", serif;
+  font-size: $gap-xl;
+  font-weight: 700;
+}
+
+.header-logo__text {
+  color: $color-white;
+  
+ }
