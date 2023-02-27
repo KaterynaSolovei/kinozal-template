@@ -1,6 +1,9 @@
 html {
   font-size: 16px;
 }
+a {
+  text-decoration: none;
+}
 
 .header {
   margin-bottom: 80px;
@@ -53,4 +56,25 @@ html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
+}
+
+.navbar {
+  background-color: #191919;
+}
+.nav-item {
+  margin: 5px 5px 5px 0;
+  text-decoration: none;
+}
+.nav-link {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+}
+.nav-item:hover {
+  background-color: #053159;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: none;
 }
